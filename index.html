@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+  <title>Checkbox Flappy Bird</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: monospace;
+    }
+
+    header {
+      text-align: center;
+      padding: 16px 16px 8px;
+      font-weight: bold;
+    }
+
+    div {
+      display: grid;
+      margin: 16px auto;
+    }
+
+    input {
+      display: block;
+      width: 14px;
+      height: 14px;
+      margin: 2px;
+      pointer-events: none;
+    }
+
+    input.bird {
+      transform: rotate(45deg);
+    }
+
+    section {
+      max-width: 576px;
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    button {
+      min-width: 100px;
+      padding: 12px 16px;
+    }
+
+    #btnup {
+      margin-right: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>Score: <span id="score">0</span></header>
+  <div id="canvas"></div>
+  <footer><button id="btnup">UP</button><button id="btndown">DOWN</button></footer>
+
+  <section id="infoPanel">
+    <h1>Flappy Checkboxes</h1>
+    <p>Use <b>arrow keys</b> to move the rotated checkbox up or down. Alternatively, you can use the <b>W</b> for up and
+      <b>S</b> for down.
+    </p>
+    <p>On mobile devices you can use the buttons above.</p>
+    <p><button id="startButton">Start</button></p>
+    <p><a href="https://github.com/pshihn/flappy-checkbox">Github repo</a></p>
+  </section>
+
+  <script async src="./lib/game.js"></script>
+</body>
+
+</html>

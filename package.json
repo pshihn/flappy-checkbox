@@ -1,0 +1,23 @@
+{
+  "name": "flappy-checkbox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pshihn/flappy-checkbox.git"
+  },
+  "author": "Preet Shihn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pshihn/flappy-checkbox/issues"
+  },
+  "homepage": "https://github.com/pshihn/flappy-checkbox#readme",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
